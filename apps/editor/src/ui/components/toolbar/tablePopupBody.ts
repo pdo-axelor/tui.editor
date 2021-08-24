@@ -40,6 +40,7 @@ export class TablePopupBody extends Component<Props, State> {
   }
 
   private extendSelectionRange = ({ pageX, pageY }: MouseEvent) => {
+    if (!this.offsetRect) this.updated();
     const x = pageX - this.offsetRect.left;
     const y = pageY - this.offsetRect.top;
     const range = this.getSelectionRangeByOffset(x, y);
