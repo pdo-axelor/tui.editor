@@ -33,7 +33,7 @@ Editor.setLanguage(['fr', 'fr-FR'], {
   'No file': 'Pas de fichier',
   Description: 'Description',
   OK: 'OK',
-  More: 'de plus',
+  More: 'Plus',
   Cancel: 'Annuler',
   File: 'Fichier',
   URL: 'URL',
